@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+        <title>The sky city</title>
+    </head>
+    <body>
+        <!-- Navigation bar -->
+        <ul id="navigation">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="activity.html">Activity</a></li>
+            <li><a href="hotel.html">Accommodation</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <!-- page content -->
+        <div class="main">
+            <!-- home page -->
+            <div id="home">
+                <h3 class="title">The Sky City</h3>
+                <p class="description">The most fascinating resorts in the world</p>
+            </div>
+
+            <!-- about page -->
+            <div id="about">
+                <h3 class="subtitle_1">ABOUT</h3>
+                <h5 class="subtitle_2">WHY US</h5>
+                <div class="box">
+                    <img class="img1" src="images/sky4.jpg" alt="fantasy-beautiful-dawn-sunset-sky">
+                    <img class="img2" src="images/sky3.jpg" alt="sky-clouds-airspace-cumulus">
+                    <div class="text_box">
+                        <h2>The Sky City introduction</h2>
+                        <p class="section1">Are you eager to go on an adventure to an unusual place? 
+                            Are you eager to try more interesting activities? 
+                            The Sky City will show you a new and wonderful world. </p>
+                        <p class="section2">Let's enjoy</p>
+                        <p class="section3">It is an attractive resort built in the sky, which has been fully developed. 
+                            If you wish to spend unforgettable time with your family, We especially welcome you to visit. 
+                            Here you will forget all your worries, and feel this wonderful world!</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- activity page -->
+            <div id="activity">
+                <h3 class="subtitle_1">ACTIVITY</h3>
+                <h5 class="subtitle_2">ENJOY US</h5>
+
+                <div class="container">
+                    <div class="activity">                                                      <!--Activity 1-->
+                        <div class="imgBx">
+                            <img src="images/boat2.jpg" alt="sunrise-boat-rowing-boat-nobody">
+                        </div>
+                        <div class="content">
+                            <h2>Rowing in the Milky Way</h2>
+                            <p>Doesn't this sound great? You can paddle in the Milky Way and it will be a whole new experience!</p>  
+                            <a href="activity.html"><button class="btn">Learn more</button></a>
+                        </div>
+                    </div>
+
+                    <div class="activity">                                                      <!--Activity 2-->
+                        <div class="imgBx">
+                            <img src="images/rainbow1.jpg" alt="heaven-bird-rainbow-mood-gull">
+                        </div>
+                        <div class="content">
+                            <h2>Making raibows</h2>
+                            <p>Here you can make your own rainbow in various colours with special paints and it will appear in the sky, 
+                                come and join us! 
+                            </p>
+                            <a href="activity.html"><button class="btn">Learn more</button></a>
+                        </div>
+                    </div>
+
+                    <div class="activity">                                                      <!--Activity 3-->
+                        <div class="imgBx">
+                            <img src="images/hot_spring1.jpg" alt="art-boiling-eruption-fog">
+                        </div>
+                        <div class="content">
+                            <h2>Spa in the clouds</h2>
+                            <p>You'll experience a cloud-forming hot spring where you'll be all relaxed and soothed!  </p>
+                            <a href="activity.html"><button class="btn">Learn more</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- accommondation page -->
+            <div id="accommondation">
+                <h3 class="subtitle_1">ACCOMMODATION</h3>
+                <h5 class="subtitle_2">TOP ENJOYMENT</h5>
+                
+                <img class=hotel_img1 src="images/hotel1.jpg" alt="green-and-white-floor">
+                <img class=hotel_img2 src="images/hotel2.jpg" alt="inner-space-hotel-rendering">
+                <img class=hotel_img3 src="images/hotel3.jpg" alt="fruit-shake-pouring-on-fruit">
+                
+                <div class="text">
+                    <h2>LIVE & EAT</h2>
+                    <h3>Top comfort experience</h3>
+                    <p>At Sky City Resort, we will offer eight-star luxury accommodation and superb food. 
+                        You'll be treated like a VIP and it'll be an experience to remember!
+                    </p>
+                    <a href="hotel.html"><button class="hotel_detail">Learn more</button></a>
+                </div>         
+            </div>
+
+
+            <!-- contact page -->
+            <div id="contact">
+                <h3 class="subtitle_1">CONTACT</h3>
+                <h5 class="subtitle_2">GET IN TOUCH</h5>
+
+                <img src="images/me.jpg">    
+                <form method="post" name="form" action="" id="form">
+                    <input class="text_box" type="text" placeholder="Username" id="username" value="" autofocus/>
+                    <input class="text_box" type="text" placeholder="Email" id="email" value=""/>
+                    <textarea rows="5" cols="33" placeholder="Message..." id="message"></textarea>
+                    <input class="submit" type="submit" value="Submit" onclick="return check(); "/>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

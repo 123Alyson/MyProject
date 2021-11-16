@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <title>hotel</title> 
+    </head>
+
+    <body>
+        <!-- Main page -->
+        <section class="sec_1">
+            <a href="index.html"><img class="img_logo" src="images/logo.png"></a>
+            <video src="images/hotel_video.mp4" autoplay muted loop></video>
+            <h1 class="title">Find Yourself Here</h1>
+        </section>
+
+        <!-- stay page -->
+        <section class="sec_2" id="sec_2">
+            <h2 class="sub_title">Eight-star Hotels in the Sky City</h2>
+            <div class="box">
+                <div id="img"></div>
+                <div class="text">
+                    <h2 class="room_title">Stay with us</h2>
+                    <button onclick="edit1()" class="choice1">Pool View Room</button>
+                    <button onclick="edit2()" class="choice2">Panoramic Glass House</button>
+                    <button onclick="edit3()" class="choice3">Suites</button>
+                    <a href="#sec_4"><p class="detail">More details</p></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- hotel description -->
+        <section class="sec_4" id="sec_4">
+            <div class="room">
+                <input type="radio" name="select" id="room_1" checked>
+                <input type="radio" name="select" id="room_2">
+                <input type="radio" name="select" id="room_3">
+
+                <!-- click button -->
+                <div class="slide">
+                    <label for="room_1" class="room_btn_1"></label>
+                    <label for="room_2" class="room_btn_2"></label>
+                    <label for="room_3" class="room_btn_3"></label>
+                </div>
+                <!-- topic content -->
+                <div class="content">
+                    <label class="pic">
+                        <img src="images/hotel6.jpg" class="img_1" alt="interior-bathtub-room-hotel">
+                    </label>
+                    <div class="txt txt_1">
+                        <h2 class="tit">Pool View Room</h2>
+                        <p class="info">The room is well-equipped and comfortable, 
+                            the only shortcoming is that the window is relatively small and the view is not good enough.</p>
+                    </div>
+                </div>
+
+                <div class="content">
+                    <label class="pic">
+                        <img src="images/hotel7.jpg" class="img_2" alt="window-house-inside-wood-luxury">
+                    </label>
+                    <div class="txt txt_2">
+                        <h2 class="tit">Panoramic Glass House</h2>
+                        <p class="info">The rooms are comfortable, well equipped, 
+                            and have large windows so you can enjoy the view from all sides and enjoy the starry night sky.</p>
+                    </div>
+                </div>
+
+                <div class="content">
+                    <label class="pic">
+                        <img src="images/hotel8.jpg" class="img_3" alt="hotel-room-bed-pillows-room-hotel">
+                    </label>
+                    <div class="txt txt_3">
+                        <h2 class="tit">Suites</h2>
+                        <p class="info">This is the largest suite in our hotel, it has three bedrooms and two bathrooms,
+                             you can enjoy this wonderful time with your family.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- food page -->
+        <section class="sec_5">
+            <p class="left_text">This is a rare opportunity to enjoy delicious food prepared by top chefs!</p>
+            <p class="right_text">The resort hotel employs world-class top chefs to provide meals for its valued guests, including breakfast, lunch and dinner. 
+                Here you have the opportunity to try specialties from different countries as well as delicacies unique to the SkyCity Resort!</p>
+            <a href="#sec_6"><h2>LEARN MORE</h2></a>
+        </section>
+
+        <!-- food detail -->
+        <section class="sec_6" id="sec_6">
+            <h2>Dishes</h2>
+            <div class="box">
+                <div class="container">
+                    <div class="img1"></div>
+                    <div class="title">Breakfast</div>
+                    <p>Breakfast is served as a buffet with lots of fancy options for you to choose from!</p>
+                </div>
+                <div class="container">
+                    <div class="img2"></div>
+                    <div class="title">Lunch</div>
+                    <p>Lunch will be served in the hotel lobby, and you can choose any national dish you like!</p>
+                </div>
+                <div class="container">
+                    <div class="img3"></div>
+                    <div class="title">Dinner</div>
+                    <p>We'll be featuring innovative dishes unique to SkyCity Resort at dinner time, and it's going to be a whole new experience!</p>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
